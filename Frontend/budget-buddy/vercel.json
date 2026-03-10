@@ -1,11 +1,8 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
   ]
-}</content>
-<parameter name="filePath">c:\Users\annar\OneDrive\Desktop\Monthly Tracker\Frontend\budget-buddy\vercel.json
+}
