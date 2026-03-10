@@ -1,21 +1,7 @@
 {
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "dist",
-  "devCommand": "npm run dev",
-  "env": {
-    "VITE_APP_NAME": "budget-buddy"
-  },
   "routes": [
     {
-      "src": "/src/(.*)",
-      "dest": "/src/$1"
-    },
-    {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
-    },
-    {
-      "src": "/(.*)",
+      "src": "^/(?!.*\\.).*$",
       "dest": "/index.html"
     }
   ]
